@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   pipex_bonus.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcollet <gcollet@student.42.fr>            +#+  +:+       +#+        */
+/*   By: opidhorn <opidhorn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/05 10:33:51 by gcollet           #+#    #+#             */
-/*   Updated: 2021/08/13 18:13:03 by gcollet          ###   ########.fr       */
+/*   Updated: 2025/07/15 18:20:01 by opidhorn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,7 +86,7 @@ int	main(int argc, char **argv, char **envp)
 		{
 			i = 3;
 			fileout = open_file(argv[argc - 1], 0);
-			here_doc(argv[2], argc);
+			here_doc(argv[2], argc); // ребёнок получил данный а родитель перенаправил чтение из трубы
 		}
 		else
 		{
